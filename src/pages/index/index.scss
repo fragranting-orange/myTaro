@@ -1,0 +1,81 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+.index {
+  width: 500px;
+  height: 200px;
+  background-color: red;
+  color: blue;
+  margin: 0 auto;
+}
+
+.bg-modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.7);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.message-warpper {
+  width: 584px;
+  // height: 684px;
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 161px;
+  padding-bottom: 25px;
+}
+.message-top {
+  width: 100%;
+  height: 128px;
+  background: linear-gradient(left,#4DA3FF,#6CCDFF);
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+}
+.message-topTxt {
+  font-family: PingFangSC-Regular;
+  width: 216px;
+  height: 90px;
+  line-height: 45px;
+  color: #fff;
+  font-size: 36px;
+  padding: 19px 0px 19px 40px;
+}
+.rocket-img {
+  width: 157px;
+  height: 157px;
+  position: absolute;
+  right: 26px;
+  bottom: 26px;
+}
+.message-content {
+  width: 308px;
+  margin: 39px 0px 132px 40px;
+  color: #333;
+  font-size: 28px;
+  line-height: 40px;
+}
+.new-function {
+  margin-bottom: 40px;
+}
+.update-btn {
+  width: 478px;
+  height: 80px;
+  background: linear-gradient(left,#4DA3FF,#6CCDFF);
+  border-radius: 40px;
+  margin: 0 auto;
+  font-size: 36px;
+  color: #fff;
+  // border-style: none;
+}
+
+// 最新版本样式
+.newVersion-message {
+  font-size: 36px;
+  color: #fff;
+  line-height: 50px;
+  padding: 39px 0px 0px 40px;
+}
+
